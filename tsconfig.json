@@ -12,8 +12,6 @@
     "strict": true,
     "isolatedModules": true,
     "skipLibCheck": true,
-    "allowJs": true,
-    "checkJs": true,
     "noEmit": true,
     "types": [
       "vite/client",
@@ -29,6 +27,6 @@
   },
   "include": [
     "src",
-    "server"
+    "vite.config.ts"
   ]
 }
